@@ -14,3 +14,9 @@ The useMemo is used to memoize the result of a function.
 
 - Higher calcs
 - Referencial igualation
+
+## When utilize useCallback
+
+The useCallback is used to memoize a function.
+
+- When a function is passed on children props, to prevent re-rendering.
