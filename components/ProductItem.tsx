@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 interface ProductItemProps {
   product: {
     id: number;
@@ -6,10 +8,17 @@ interface ProductItemProps {
   };
 }
 
-export const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
+const ProductItemComponent: React.FC<ProductItemProps> = ({ product }) => {
   return (
     <div>
       {product.title} - <strong>R$ {product.price}</strong>
     </div>
   );
 };
+
+export const ProductItem = memo(
+  ProductItemComponent,
+  (prevProps, nextProps) => {
+    return Object.is(prevProps.product, nextProps.product);
+  }
+);
