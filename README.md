@@ -24,3 +24,7 @@ The useCallback is used to memoize a function.
 ## Where format data
 
 The format data is better do togheter with function that return a list of data, it's prevent to re-render the list.
+
+## When utilize Dynamic Import (Code Splitting/Import with Lazy Loading)
+
+Then Dynamic Import is used to import a component dynamically just on necessary.
