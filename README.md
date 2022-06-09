@@ -1,8 +1,6 @@
 # React Performance
 
-## Memo
-
-### When use Memo
+## When utilize Memo
 
 - The memo is used if you want to render a component only if it's props change.
 - When is a PureComponent.
