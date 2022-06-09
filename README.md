@@ -20,3 +20,7 @@ The useMemo is used to memoize the result of a function.
 The useCallback is used to memoize a function.
 
 - When a function is passed on children props, to prevent re-rendering.
+
+## Where format data
+
+The format data is better do togheter with function that return a list of data, it's prevent to re-render the list.
