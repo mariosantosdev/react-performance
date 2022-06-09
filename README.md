@@ -28,3 +28,8 @@ The format data is better do togheter with function that return a list of data, 
 ## When utilize Dynamic Import (Code Splitting/Import with Lazy Loading)
 
 Then Dynamic Import is used to import a component dynamically just on necessary.
+
+## React Virtualized
+
+The React Virtualized is used to render a lot of data in browser without to load all data in memory.
+It's help the performance of the browser.
